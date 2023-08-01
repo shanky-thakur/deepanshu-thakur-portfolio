@@ -1,0 +1,30 @@
+body {
+    background-image: url(back.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: rgb(225, 250, 5);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 3px solid rgb(241, 245, 5);
+    background-image: none;
+}
+
+.carousel-control-prev-icon {
+    margin-left: 50%;
+}
+
+.carousel-control-next-icon {
+    margin-right: 50%;
+}
+
+.btn-close {
+    border: 2px solid white;
+}
